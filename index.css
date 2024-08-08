@@ -1,0 +1,467 @@
+.body{
+    background-color: #121a20;
+}
+
+
+.header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    font-size: 40px;
+    font-family:"Cedarville Cursive", cursive;
+    z-index: 1;
+    height: 150px;
+
+    }
+
+
+    .right{
+        position: absolute;
+        top:10px;
+        margin-right:1500px;
+        left:1850px;
+        top:32px;
+    }
+
+    .nameof{
+        position: absolute;
+        right:0px;
+        color:white;
+        font-family:"Cedarville Cursive", cursive; 
+        font-weight: bold;
+    }
+     
+
+
+.pic1{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+
+.img1{
+    height: 953px;
+}
+
+
+
+    
+.left{
+    
+    position: absolute;
+    left:0px;
+    top:0px;
+    
+}
+
+.location{
+    height: 100px;
+    max-width: 100px;
+}
+
+.p1{
+    color:white;
+    text-align: center;
+    position: absolute;
+    top:32px;
+    left:90px;
+    font-family: "Cedarville Cursive", cursive;
+}
+
+
+.about{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:900px;
+    bottom: 0px;
+    font-size: 40px;
+    background-color: #121a20
+
+}
+
+.name{
+    position:absolute;
+    font-size: 40px;
+    top:250px;
+    right:100px;
+    color:white;
+    font-family:cursive;
+}
+
+.a{
+    position:absolute;
+    font-size: 40px;
+    top:320px;
+    right:100px;
+    color:rgb(38, 51, 95);
+    font-family:cursive;
+}
+
+.b{
+    position:absolute;
+    font-size: 18px;
+    top:430px;
+    right:100px;
+    left:300px;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+
+}
+
+.c{
+    position:absolute;
+    font-size: 18px;
+    top:580px;
+    right:100px;
+    left:300px;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+}
+
+.a1{
+    position:absolute;
+    font-size: 20px;
+    top:720px;
+    right:100px;
+    left:300px;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+    -webkit-text-stroke: 0vw white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.a1:hover{
+    content: attr(data-text);
+    position:absolute;
+    font-size: 20px;
+    top:720px;
+    right:100px;
+    left:300px;
+    color:white;
+    -webkit-text-stroke: 0.1vw white;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+.a2{
+    position:absolute;
+    font-size: 20px;
+    top:775px;
+    right:100px;
+    left:300px;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+    -webkit-text-stroke: 0vw white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.a2:hover{
+    content: attr(data-text);
+    position:absolute;
+    font-size: 20px;
+    top:775px;
+    right:100px;
+    left:300px;
+    color:white;
+    -webkit-text-stroke: 0.1vw white;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%
+    {
+        widht: 0;
+    }
+    70%,90%
+    {
+        widht: 100%;
+    }
+}
+
+.a3{
+    position:absolute;
+    font-size: 20px;
+    top:830px;
+    right:100px;
+    left:300px;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+    -webkit-text-stroke: 0vw white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.a3:hover{
+    content: attr(data-text);
+    position:absolute;
+    font-size: 20px;
+    top:830px;
+    right:100px;
+    left:300px;
+    color:white;
+    -webkit-text-stroke: 0.1vw white;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+
+.info{
+    position: absolute;
+    left:0px;
+    right:0px;
+    height: 250px;
+    top:953px;
+    background-color: black;
+    opacity: 0.6;
+    font-size:20px;
+}
+.info-left-top{
+    color:white;
+    position: absolute;
+    left:300px;
+    top:50px;
+    
+}
+.info-left-middle{
+    color:rgb(69, 92, 168);
+    position: absolute;
+    left:300px;
+    top:120px;
+}
+.info-left-bottom{
+    color:rgb(69, 92, 168);
+    position: absolute;
+    left:300px;
+    top:160px;
+}
+
+.info-middle-top{
+    color:white;
+    position: absolute;
+    left:800px;
+    top:50px;
+}
+.info-middle-middle{
+    color:white;
+    position: absolute;
+    left:800px;
+    top:120px;
+}
+.info-middle-bottom{
+    color:white;
+    position: absolute;
+    left:800px;
+    top:160px;
+    
+}
+
+.info-a{
+    color:white;
+    text-decoration: none;
+}
+
+.info-a:hover{
+    content: attr(data-text);
+    
+    color:white;
+    -webkit-text-stroke: 0.1vw white;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+.info-right-top{
+    color:white;
+    position: absolute;
+    left:1200px;
+    top:50px;
+}
+
+.info-right-middle{
+    color:white;
+    position: absolute;
+    left:1200px;
+    top:120px;
+}
+
+.info-right-middle-right{
+    position: absolute;
+    left:1400px;
+    top:120px;
+    color:rgb(69, 92, 168);
+}
+
+.lplpp{
+    position: absolute;
+    color:white;
+    top:1260px;
+    text-align: center;
+    left:0px;
+    right:0px;
+    font-weight: bold;
+}
+
+.pizza{
+
+position:absolute;
+top:1310px;
+left:240px;
+border-style: solid;
+border-color:gray;
+height: 550px;
+width: 700px;
+border-width: 0.5px;
+
+}
+
+.pizza-name{
+    position: absolute;
+    color:white;
+    top:330px;
+    font-size:24px;
+    left:20px;
+    right:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.img2{
+    position: absolute;
+    height: 300px;
+    width: 700px;
+}
+
+.pizza-under-name{
+    position: absolute;
+    color:white;
+    top:380px;
+    font-size:18px;
+    left:20px;
+    right:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.when{
+    position: absolute;
+    color:rgba(189, 109, 34, 0.562);
+    top:500px;
+    font-size:16px;
+    left:20px;
+    right:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.btn1{
+    position: absolute;
+    top:480px;
+    left:420px;
+    height: 50px;
+    width: 150px;
+    border-style:dotted;
+    border-color: white;
+    background-color:#121a20;
+    color:white;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn1:hover{
+    position: absolute;
+    top:480px;
+    left:420px;
+    height: 50px;
+    width: 150px;
+    border-style:solid;
+    border-color: white;
+    background-color:#121a20;
+    color:white;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+}
+
+.table-pic{
+    position: absolute;
+    top:1930px;
+    left:0px;
+    height:800px;
+    width: 900px;
+}
+
+.table-text{
+    position: absolute;
+    top:2180px;
+    left:1200px;
+    width: 500px;
+    
+}
+
+.table-text-top{
+    color:rgb(69, 92, 168);
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.table-text-middle{
+    color:white;
+    font-size:27px;
+    text-align: right;
+    margin-top:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table-text-bottom{
+    margin-top:50px;
+    text-align: right;
+}
+
+.a-table{
+    cursor: pointer;
+    position: relative;
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.a-table::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: white;
+    transition: width .2s;
+}
+
+.a-table:hover::after{
+    width:100%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copy{
+    position: absolute;
+    top:2800px;
+    color:white;
+    font-size:12px;
+    left:300px;
+    padding-bottom: 50px;
+    height: 50px;
+    
+}
